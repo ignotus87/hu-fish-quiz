@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Magyarország halai</title>
+<script>
+
+var jsons = [];
+
+</script>
+<style>
+h1 {text-align: center;}
+.right { color: darkGreen;}
+.wrong { color: red; }
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	paddig-top: 20px;
+}
+ul#horizontal-list li {
+	display: inline;
+}
+.choice {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 2em;
+}
+.puzzle-container {
+	text-align: center;
+}
+.comment-on-answer {
+	text-align: center;
+	font-size: 3em;
+}
+</style>
+</head>
+
+<body>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<div id="app">
+  <div>
+	<button @click="reset()">Újrakezdés</button>
+	Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }}
+  </div>
+
+  <h1>{{ title }}</h1>
+  
+  <div class="puzzle-container">
+		<div>{{ actualIndex }}/{{ totalSpeciesCount }}</div>
+		<div><img v-bind:src="puzzleImage" alt="Mi ez a hal?" /></div>
+		<div class="table">
+		<ul id="horizontal-list">
+			<li v-for="answer in choices">
+				<button class="choice" @click="answered(answer)">{{ answer }}</button>
+			</li>
+		</ul>
+		</div>
+  </div>
+  
+  <div class="comment-on-answer" v-html="commentToShow"></div>
+
+</div>
+
+<script type="module" src="./startup.js"></script>
+
+</body>
+
+</html>
