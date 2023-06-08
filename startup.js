@@ -98,7 +98,7 @@ speciesImport.then(data => {
                     this.numberOfCorrectAnswers++;
                 }
                 else {
-                    this.comment = '<b class="wrong">Tévedtél, ez nem ' + answer + '! Ez a: ' + this.puzzleName + "</b>";
+                    this.comment = '<b class="wrong">Tévedtél, ez a(z) ' + this.puzzleName + "</b>";
                 }
                 ++this.numberOfAnsweredQuestions;
 
