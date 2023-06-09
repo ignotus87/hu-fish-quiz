@@ -4,559 +4,639 @@
     "Name": "ponty",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 37, 46 ]
+    "SimilarSpecies": [ 37, 46 ],
+    "DistinctionInfo": "Legjobban az ezüstkárász hasonlít hozzá, de annak nincs bajusza, továbbá összetéveszthető a nem fogható széles kárásszal is, de annak sincs bajusza, és hátúszója lekerekített, domború szélű. "
   },
   {
     "ID": 2,
     "Name": "harcsa",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 41, 42, 9 ]
+    "SimilarSpecies": [ 41, 42, 9 ],
+    "DistinctionInfo": "2,5 m is lehet a hossza. Teste a többi hazai halunktól különbözik. Feje lapított, teste pikkelytelen. Feje nagy és széles, szeme kicsi. Nagy, félig fölső állású száján a felső ajakon, a szájszeglet közelében 2 hosszú, alul 4 rövidebb bajuszszálat találunk. Szélesre nyíló szájában felül és alul rendkívül sok apró, kissé visszahajló, tűhegyes ránőtt fog helyezkedik el (ez az ún. gerebenfogazat)."
   },
   {
     "ID": 3,
     "Name": "csuka",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": " Szája nagyra nyitható, benne nagy, tűhegyes fogak vannak. Hátúszója a teste végén található, szinte a farokalatti úszóval egyvonalban kezdődik. Alsó állkapcsa túlér a felsőn."
   },
   {
     "ID": 4,
     "Name": "balin",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Félig felső állású szája nagy, szájszöglete a szem alá nyúlik. Alsó állkapcsának csúcsa kissé, felfelé hajló, enyhén kampós."
   },
   {
     "ID": 5,
     "Name": "fogassüllő",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 7, 28 ]
+    "SimilarSpecies": [ 7, 28 ],
+    "DistinctionInfo": "Csúcsba nyíló szája nagy, benne erős fogak ülnek, az állkapocs csúcsán nagy, ún. ebfogak vannak, így különbözhethető meg a kősüllőtől."
   },
   {
     "ID": 6,
     "Name": "kősüllő",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Ebfogai csak a kisebb példányoknak vannak, sávozása a fogassüllőnél erőteljesebb."
   },
   {
     "ID": 7,
     "Name": "sügér",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 5, 28 ]
+    "SimilarSpecies": [ 5, 28 ],
+    "DistinctionInfo": "Magas testű, oldalról lapított hal. Az elülső hátúszó végén egy jellemző fekete folt található."
   },
   {
     "ID": 8,
     "Name": "sebes pisztráng",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Hátát, oldalát, esetleg úszóit világos udvarral körülvett fekete és rendszerint piros pettyek is díszítik. A fiatalok testoldalán az ezüstös alapszínnél kissé sötétebb, nagy foltok is láthatók."
   },
   {
     "ID": 9,
     "Name": "menyhal",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 40, 41 ]
+    "SimilarSpecies": [ 40, 41 ],
+    "DistinctionInfo": "A harcsához hasonlít, de a menyhalnak kicsi és szimmetrikusan lekerekített, különálló farokúszója van, és csak egy bajsza középen az állán."
   },
   {
     "ID": 10,
     "Name": "angolna",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 48, 80 ]
+    "SimilarSpecies": [ 48, 80 ],
+    "DistinctionInfo": "A hengeres, kígyószerű törzs átmenet nélkül kapcsolódik a farokrészhez. Az úszók egységes úszószegéllyé alakultak át."
   },
   {
     "ID": 11,
     "Name": "márna",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Folyóvízi, test izmos, nyúlánk, hengers. Orra túlér a száján. Húsos szája alsó állású, szögletében 2 bajuszszál van."
   },
   {
     "ID": 12,
     "Name": "compó",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Sekély, dús növényzetű állóvizek lakója. Zömök pontyféle, feje nagy, szeme kicsi, úszói lekerekítettek."
   },
   {
     "ID": 13,
     "Name": "dévérkeszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 15, 14, 20 ],
+    "DistinctionInfo": "Folyók lassú szakaszában, tavakban fordul elő. Gyakori. A nyakszirtnél egy jellegzetes törés figyelhető meg. Az oldalvonal és a hátúszó közötti hosszanti pikkelysorok száma 11-13, míg a karikakeszeg oldalvonala fölött csak 8–10 pikkelysor húzódik."
   },
   {
     "ID": 14,
     "Name": "laposkeszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 13 ],
+    "DistinctionInfo": "Nagyobb folyókban, tavakban él. A dévérkeszegnél kevésbé magas hátú, de rendkívül lapított testű hal. Szája kicsi, farokalatti úszója feltűnően hosszú. "
   },
   {
     "ID": 15,
     "Name": "karikakeszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 13 ],
+    "DistinctionInfo": "Patakokban, nagy folyókban fordul elő. Gyakori. Szemei a fejéhez képes nagyok, hasa ezüstös-vörhenyes. Leginkább a dévérkeszeggel téveszthető össze, de amíg a karikakeszeg oldalvonala fölött csak 8–10 pikkelysor húzódik, a dévérkeszegnél 11–13. "
   },
   {
     "ID": 16,
     "Name": "bodorka",
     "Category": "őshonos, fogható",
     "ImageSource": "https://pecacsarnok.hu/bodorka/",
-    "SimilarSpecies": [ 53, 54 ]
+    "SimilarSpecies": [ 53, 54, 17 ],
+    "DistinctionInfo": "Hazánk minden vizében megtalálható. Has- és hátúszói egyvonalban kezdődnek, míg a hozzá nagyon hasonló vörösszárnyú keszegéi nem."
   },
   {
     "ID": 17,
     "Name": "vörösszárnyú keszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 16 ],
+    "DistinctionInfo": "Holtmedrek, kisebb nyugodt tavak hala. A bodorkával ellentétben hátúszója a hasúszó alapjánál hátrébb kezdődik."
   },
   {
     "ID": 18,
     "Name": "domolykó",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 55 ],
+    "DistinctionInfo": "Folyóvízi hal. Feje nagy, homloka széles, orra tompán lekerekített. A fakokalatti úszó szegélye domború vagy egyenes, de sosem homorú, ami a nyúldomolykóhoz hasonlítva a legfeltűnőbb megkülönböztető bélyeg."
   },
   {
     "ID": 19,
     "Name": "jászkeszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Folyami hal, az idősebbek mell-, has- és faokalatti úszói vörösek, hát- és farokúszói barnásak."
   },
   {
     "ID": 20,
     "Name": "bagolykeszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 13, 14 ],
+    "DistinctionInfo": "Erősebb sodrású folyószakaszok, tavak hala. Szeme nagy bagolyszem. Hosszú farokalatti úszója miatt hasonlít hozzá a laposkeszeg, de annak az orra hegyes, a szája fölső állású. Alakra és szájállásra nézve hasonlít hozzá a dévérkeszeg, de annak farokalatti úszója rövidebb."
   },
   {
     "ID": 21,
     "Name": "paduc",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 55, 22 ]
+    "SimilarSpecies": [ 55, 22 ],
+    "DistinctionInfo": "Gyors folyású folyóvizek hala. Hosszú orra a szája elé nyúlik. Farokalatti úszójában általában 10-12 elágazó sugár van (tehát jóval kevesebb, mint a szilvaorrú keszegnél)."
   },
   {
     "ID": 22,
     "Name": "szilvaorrú keszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 55, 21 ]
+    "SimilarSpecies": [ 55, 21 ],
+    "DistinctionInfo": "Áramláskedvelő, félsós tengeröblökből felvándorolt hal. Farokalatti úszójában 18-22 elágazó sugár számlálható, sokkal több, mint a paducnak."
   },
   {
     "ID": 23,
     "Name": "szélhajtó küsz",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Tavak, lassú folyók apró hala. Másnéven sneci. Legjobban a balinivadék hasonlít hozzá, de annak a szája a szeme alá ér."
   },
   {
     "ID": 24,
     "Name": "garda",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Eredetileg vándorolt, de mára alkalmazkodott az édesvízi életmódhoz. Háta majdnem egyenes."
   },
   {
     "ID": 25,
     "Name": "amur",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "K-Ázsiából betelepített folyami, tavi hal. Nagynövésű. A növényi részeket vaskos ajkával tépkedi le."
   },
   {
     "ID": 26,
     "Name": "fekete amur",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Lassú folyású vizekben él, K-Ázsiából jött. Teste erősen nyújtott, a domolykóra hasonlít, de minden úszója sötétszürke."
   },
   {
     "ID": 27,
     "Name": "szivárványos pisztráng",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Folyamatosan újratelepítik, önfenntartó állománya nem alakult kib. A hegyi kisvízfolyásokat kedveli."
   },
   {
     "ID": 28,
     "Name": "pisztrángsügér",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 5, 7 ]
+    "SimilarSpecies": [ 5, 7 ],
+    "DistinctionInfo": "Stabil állománya kevés helyen alakult ki."
   },
   {
     "ID": 29,
     "Name": "lénai tok",
     "Category": "idegenhonos, fogható",
     "ImageSource": "http://pshe.eliveport.com/5-7-lenai-tok-1145022",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Másnéven szibériai tok.Háta barnásfekete, barnásszürke, hasa fehéres színezetű. Felső ajka az alsó felé enyhén becsúcsosodik."
   },
   {
     "ID": 30,
     "Name": "lapátorrú tok",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://sokszinuvidek.24.hu/mozaik/2022/11/27/orszagos-rekordot-dontott-a-gigantikus-lapatorru/",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": "Nagy termetű. Színe halvány szürkéskék vagy olajzöld. Horgásztavakba telepítették, a Dunában is előfordul."
   },
   {
     "ID": 31,
     "Name": "folyami géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "http://blshe.hu/folyami-geb-neogobius-fluviatilis/",
-    "SimilarSpecies": [ 32, 33, 34, 35, 36 ]
+    "SimilarSpecies": [ 32, 33, 34, 35, 36 ],
+    "DistinctionInfo": "Önállóan terjedt el a folyók alsó szakaszáról. Gyakori. Kizárólag az aljzaton mozognak. Foltjai halványak."
   },
   {
     "ID": 32,
     "Name": "csupasztorkú géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://sokszinuvidek.24.hu/viragzo-videkunk/2022/12/07/idegenhonos-hal-duna-okologiai-kutatokozpont/",
-    "SimilarSpecies": [ 33, 34, 35, 36, 31 ]
+    "SimilarSpecies": [ 33, 34, 35, 36, 31 ],
+    "DistinctionInfo": "Önállóan terjedt el a folyók alsó szakaszáról. Gyakori. Kizárólag az aljzaton mozognak. Spirálisan foltos."
   },
   {
     "ID": 33,
     "Name": "Kessler géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "http://pshe.eliveport.com/5-87-kessler-geb-1145346",
-    "SimilarSpecies": [ 34, 35, 36, 32, 33 ]
+    "SimilarSpecies": [ 34, 35, 36, 32, 33 ],
+    "DistinctionInfo": "Önállóan terjedt el a folyók alsó szakaszáról. Gyakori. Kizárólag az aljzaton mozognak. Szabálytalanul foltos."
   },
   {
     "ID": 34,
     "Name": "feketeszájú géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://hu.wikipedia.org/wiki/F%C3%A1jl:Zwartbekgrondel_108.JPG",
-    "SimilarSpecies": [ 35, 36, 31, 32, 33 ]
+    "SimilarSpecies": [ 35, 36, 31, 32, 33 ],
+    "DistinctionInfo": "Önállóan terjedt el a folyók alsó szakaszáról. Gyakori. Kizárólag az aljzaton mozognak."
   },
   {
     "ID": 35,
     "Name": "tarka géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://hu.wikipedia.org/wiki/F%C3%A1jl:M%C3%A1rton_Zsoldos,_Drawing_of_the_tarka_g%C3%A9b_(Proterorhinus_semilunaris,_2007).jpg",
-    "SimilarSpecies": [ 36, 31, 32, 33, 34 ]
+    "SimilarSpecies": [ 36, 31, 32, 33, 34 ],
+    "DistinctionInfo": "Önállóan terjedt el a folyók alsó szakaszáról. Gyakori. Kizárólag az aljzaton mozognak. Foltjai csíkokba rendeződnek."
   },
   {
     "ID": 36,
     "Name": "kaukázusi törpegéb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "http://explorerworld.hu/2013/08/16/a-kaukazusi-torpegeb-hazank-uj-halfaja/",
-    "SimilarSpecies": [ 31, 32, 33, 34, 35 ]
+    "SimilarSpecies": [ 31, 32, 33, 34, 35 ],
+    "DistinctionInfo": "Önállóan terjedt el a folyók alsó szakaszáról. Gyakori. Kizárólag az aljzaton mozognak."
   },
   {
     "ID": 37,
     "Name": "ezüstkárász",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 1, 46 ]
+    "SimilarSpecies": [ 1, 46 ],
+    "DistinctionInfo": "Behozták az országba, de magától is előfordulhatott. Sekély tavakban fordul elő. A széles kárászhoz hasonlít, de annek a hátúszója lekerekített. Hasonlít hozzá a ponty is, de annak van bajusza."
   },
   {
     "ID": 38,
     "Name": "fehér busa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 39 ]
+    "SimilarSpecies": [ 39 ],
+    "DistinctionInfo": "A fehér és a pettyes busa hibridjeivel lehet leggyakrabban találkozni. Jellemzően folyóvízi, de megél tavakban is. Horgásztavakban találhatunk tisztán fehér busát is."
   },
   {
     "ID": 39,
     "Name": "pettyes busa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 38 ]
+    "SimilarSpecies": [ 38 ],
+    "DistinctionInfo": "A fehér és a pettyes busa hibridjeivel lehet leggyakrabban találkozni. Jellemzően folyóvízi, de megél tavakban is. Horgásztavakban találhatunk tisztán fehér busát is."
   },
   {
     "ID": 40,
     "Name": "barna törpeharcsa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 41, 2 ]
+    "SimilarSpecies": [ 41, 2 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 41,
     "Name": "fekete törpeharcsa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://likebalaton.hu/telepules/balaton/hireink/a-fekete-torpeharcsa-miatt-kernek-segitseget-a-balatonnal-257336/",
-    "SimilarSpecies": [ 40, 2 ]
+    "SimilarSpecies": [ 40, 2 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 42,
     "Name": "naphal",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 41, 2, 7, 5, 28 ]
+    "SimilarSpecies": [ 41, 2, 7, 5, 28 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 43,
     "Name": "razbóra",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 44,
     "Name": "amurgéb",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://hu.wikipedia.org/wiki/F%C3%A1jl:%D0%A0%D0%BE%D1%82%D0%B0%D0%BD_%D0%B2_%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B5_%D1%84%D0%BE%D1%82%D0%BE2.JPG",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 45,
     "Name": "kecsege",
     "Category": "nem fogható/külön időszakos engedéllyel fogható őshonos",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 49, 50, 51, 52 ]
+    "SimilarSpecies": [ 49, 50, 51, 52 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 46,
     "Name": "széles kárász",
     "Category": "nem fogható/külön időszakos engedéllyel fogható őshonos",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 37, 1 ]
+    "SimilarSpecies": [ 37, 1 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 47,
     "Name": "vágódurbincs",
     "Category": "nem fogható/külön időszakos engedéllyel fogható őshonos",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 48,
     "Name": "tiszai ingola",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 10, 80 ]
+    "SimilarSpecies": [ 10, 80 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 49,
     "Name": "viza",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 50, 51, 52 ]
+    "SimilarSpecies": [ 50, 51, 52 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 50,
     "Name": "vágótok",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 49, 51, 52 ]
+    "SimilarSpecies": [ 49, 51, 52 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 51,
     "Name": "simatok",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 49, 50, 51 ]
+    "SimilarSpecies": [ 49, 50, 51 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 52,
     "Name": "sőregtok",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 53,
     "Name": "leánykoncér",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://hu.wikipedia.org/wiki/Le%C3%A1nykonc%C3%A9r#/media/F%C3%A1jl:Rutilus_virgo_le%C3%A1nykonc%C3%A9r.jpg",
-    "SimilarSpecies": [ 54, 16 ]
+    "SimilarSpecies": [ 54, 16 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 54,
     "Name": "gyöngyös koncér",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 53, 16 ]
+    "SimilarSpecies": [ 53, 16 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 55,
     "Name": "nyúldomolykó",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 21, 22 ]
+    "SimilarSpecies": [ 21, 22, 18 ],
+    "DistinctionInfo": ""
   },
   {
     "ID": 56,
     "Name": "Petényi- vagy Kárpáti márna",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 57,
     "Name": "lápi póc",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 58,
     "Name": "fürge cselle",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 59,
     "Name": "kurta baing",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 60,
     "Name": "sujtásos küsz",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 61,
     "Name": "szivárványos ökle",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 62,
     "Name": "felpillantó küllő",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 63,
     "Name": "halványfoltú küllő",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 64,
     "Name": "homoki küllő",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 65,
     "Name": "fenékjáró küllő",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 66,
     "Name": "réti csík",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 67,
     "Name": "vágócsík",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 68,
     "Name": "kövi csík",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 69,
     "Name": "balkáni törpecsík",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 70,
     "Name": "botos kölönte",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 71,
     "Name": "cifra kölönte",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 72,
     "Name": "széles durbincs",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 73,
     "Name": "selymes durbincs",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 74,
     "Name": "magyar bucó",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 75,
     "Name": "német bucó",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 76,
     "Name": "dunai nagyhering",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 77,
     "Name": "vaskos csabak",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 78,
     "Name": "pénzes pér",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 79,
     "Name": "dunai galóca",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [],
+    "DistinctionInfo": ""
   },
   {
     "ID": 80,
     "Name": "duani ingola",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 10, 48 ]
+    "SimilarSpecies": [ 10, 48 ],
+    "DistinctionInfo": ""
   }
 ]
