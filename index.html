@@ -40,6 +40,12 @@ ul#horizontal-list li {
 .game-title { 
 	font-size: 2em;
 }
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
 </style>
 </head>
 
@@ -49,8 +55,13 @@ ul#horizontal-list li {
 
 <div id="app">
   <div>
-	<button @click="reset()">Újrakezdés</button>
-	Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }})
+	<div class="float-left">
+			<button @click="reset()">Újrakezdés</button>
+			Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }})
+	</div>
+	<div class="float-right">
+		  <a href="https://portal.nebih.gov.hu/documents/10182/808522/HORG%C3%81SZVIZSGA-TANANYAG_aktualizlt_202000731_FIN.pdf/06b20bae-d4c0-63a6-bb9d-bfb69ad7ba02?t=1598332560244" target="_blank">Tananyag</a>
+	</div>
   </div>
 
   <h1>{{ title }}</h1>
