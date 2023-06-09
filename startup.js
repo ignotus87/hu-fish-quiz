@@ -20,7 +20,8 @@ speciesImport.then(data => {
                 totalPoints: 0,
                 numberOfAnsweredQuestions: 0,
                 numberOfCorrectAnswers: 0,
-                previousPuzzleIDs: []
+                previousPuzzleIDs: [],
+                game: 'SelectNameByImage'
             }
         },
         computed: {
@@ -53,6 +54,11 @@ speciesImport.then(data => {
                     temp = temp.substring(0, temp.indexOf('/'))
                 }
                 return temp;
+            },
+            gameTitle() {
+                if (this.game === "SelectNameByImage") {
+                    return "Melyik halat látod a képen?";
+                }
             }
         },
         methods: {
