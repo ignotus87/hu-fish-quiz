@@ -3,7 +3,6 @@ const speciesImport = import("./Species/speciesList.json", {
 });
 
 speciesImport.then(data => {
-    console.log(data.default);
 
     const { createApp } = Vue
 
@@ -58,8 +57,6 @@ speciesImport.then(data => {
         },
         methods: {
             getRandomSpecies() {
-                console.log(this.previousPuzzleIDs.length);
-                console.log(this.speciesList.length);
                 if (this.previousPuzzleIDs.length == this.speciesList.length) { return this.puzzle; }
 
                 do {
