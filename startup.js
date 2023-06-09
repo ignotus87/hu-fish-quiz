@@ -47,6 +47,13 @@ speciesImport.then(data => {
                 else {
                     return (100 * this.numberOfCorrectAnswers / this.numberOfAnsweredQuestions).toFixed() + "%";
                 }
+            },
+            imageSource() {
+                let temp = this.puzzle.ImageSource.replace('https://', '').replace('http://', '');
+                if (temp.indexOf('/') > 0) {
+                    temp = temp.substring(0, temp.indexOf('/'))
+                }
+                return temp;
             }
         },
         methods: {
@@ -91,14 +98,17 @@ speciesImport.then(data => {
 
                 return array;
             },
+            isCorrect(answer) {
+                return answer === this.puzzleName;
+            },
             answered(answer) {
-                if (answer == this.puzzleName) {
-                    this.comment = '<b class="right">Helyes!</b>';
+                if (this.isCorrect(answer)) {
+                    this.comment = '<b class="right">Helyes!</b><br/><i>' + this.puzzle.Category + '</i>';
                     this.totalPoints++;
                     this.numberOfCorrectAnswers++;
                 }
                 else {
-                    this.comment = '<b class="wrong">Tévedtél, ez a(z) ' + this.puzzleName + "</b>";
+                    this.comment = '<b class="wrong"><s>' + answer + '</s></b> <b class="right">' + this.puzzleName + "</b><br/><i>" + this.puzzle.Category + '</i>';
                 }
                 ++this.numberOfAnsweredQuestions;
 
@@ -110,7 +120,7 @@ speciesImport.then(data => {
                         this.nextPuzzle();
                         this.comment = '';
                     }
-                }, 2000);
+                }, this.isCorrect(answer) ? 2000 : 4000);
             },
             nextPuzzle() {
                 this.puzzle = this.getRandomSpecies();

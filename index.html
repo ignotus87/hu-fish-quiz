@@ -54,7 +54,10 @@ ul#horizontal-list li {
   
   <div class="puzzle-container">
 		<div>{{ actualIndex }}/{{ totalSpeciesCount }}</div>
-		<div><img v-bind:src="puzzleImage" alt="Mi ez a hal?" /></div>
+		<div>
+			<img v-bind:src="puzzleImage" alt="Mi ez a hal?" />
+			<i><small><br/>Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
+		</div>
 		<div class="table">
 		<ul id="horizontal-list">
 			<li v-for="answer in choices">
