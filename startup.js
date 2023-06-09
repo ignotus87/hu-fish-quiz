@@ -77,9 +77,27 @@ speciesImport.then(data => {
                 return result;
             },
             getIncorrectAnswers() {
-                this.incorrect1 = this.getRandomSpeciesExceptIDs([this.puzzle.ID]);
-                this.incorrect2 = this.getRandomSpeciesExceptIDs([this.puzzle.ID, this.incorrect1.ID]);
-                this.incorrect3 = this.getRandomSpeciesExceptIDs([this.puzzle.ID, this.incorrect1.ID, this.incorrect2.ID]);
+
+                if (this.puzzle.SimilarSpecies.length >= 1) {
+                    this.incorrect1 = this.speciesList.find((item) => item.ID === this.puzzle.SimilarSpecies[0]);
+                }
+                else {
+                    this.incorrect1 = this.getRandomSpeciesExceptIDs([this.puzzle.ID]);
+                }
+
+                if (this.puzzle.SimilarSpecies.length >= 2) {
+                    this.incorrect2 = this.speciesList.find((item) => item.ID === this.puzzle.SimilarSpecies[1]);
+                }
+                else {
+                    this.incorrect2 = this.getRandomSpeciesExceptIDs([this.puzzle.ID, this.incorrect1.ID]);
+                }
+
+                if (this.puzzle.SimilarSpecies.length >= 3) {
+                    this.incorrect3 = this.speciesList.find((item) => item.ID === this.puzzle.SimilarSpecies[2]);
+                }
+                else {
+                    this.incorrect3 = this.getRandomSpeciesExceptIDs([this.puzzle.ID, this.incorrect1.ID, this.incorrect2.ID]);
+                }
             },
             shuffle(array) {
                 let currentIndex = array.length, randomIndex;

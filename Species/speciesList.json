@@ -4,14 +4,14 @@
     "Name": "ponty",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 37, 46 ]
   },
   {
     "ID": 2,
     "Name": "harcsa",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 41, 42, 9 ]
   },
   {
     "ID": 3,
@@ -32,7 +32,7 @@
     "Name": "fogassüllő",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 7, 28 ]
   },
   {
     "ID": 6,
@@ -46,7 +46,7 @@
     "Name": "sügér",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 5, 28 ]
   },
   {
     "ID": 8,
@@ -60,7 +60,7 @@
     "Name": "menyhal",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 40, 41 ]
   },
   {
     "ID": 10,
@@ -144,14 +144,14 @@
     "Name": "paduc",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 55, 22 ]
   },
   {
     "ID": 22,
     "Name": "szilvaorrú keszeg",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 55, 21 ]
   },
   {
     "ID": 23,
@@ -193,7 +193,7 @@
     "Name": "pisztrángsügér",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 5, 7 ]
   },
   {
     "ID": 29,
@@ -214,84 +214,84 @@
     "Name": "folyami géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "http://blshe.hu/folyami-geb-neogobius-fluviatilis/",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 32, 33, 34, 35, 36 ]
   },
   {
     "ID": 32,
     "Name": "csupasztorkú géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://sokszinuvidek.24.hu/viragzo-videkunk/2022/12/07/idegenhonos-hal-duna-okologiai-kutatokozpont/",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 33, 34, 35, 36, 31 ]
   },
   {
     "ID": 33,
     "Name": "Kessler géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "http://pshe.eliveport.com/5-87-kessler-geb-1145346",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 34, 35, 36, 32, 33 ]
   },
   {
     "ID": 34,
     "Name": "feketeszájú géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://hu.wikipedia.org/wiki/F%C3%A1jl:Zwartbekgrondel_108.JPG",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 35, 36, 31, 32, 33 ]
   },
   {
     "ID": 35,
     "Name": "tarka géb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "https://hu.wikipedia.org/wiki/F%C3%A1jl:M%C3%A1rton_Zsoldos,_Drawing_of_the_tarka_g%C3%A9b_(Proterorhinus_semilunaris,_2007).jpg",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 36, 31, 32, 33, 34 ]
   },
   {
     "ID": 36,
     "Name": "kaukázusi törpegéb",
     "Category": "idegenhonos, fogható",
     "ImageSource": "http://explorerworld.hu/2013/08/16/a-kaukazusi-torpegeb-hazank-uj-halfaja/",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 31, 32, 33, 34, 35 ]
   },
   {
     "ID": 37,
     "Name": "ezüstkárász",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 1, 46 ]
   },
   {
     "ID": 38,
     "Name": "fehér busa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 39 ]
   },
   {
     "ID": 39,
     "Name": "pettyes busa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 38 ]
   },
   {
     "ID": 40,
     "Name": "barna törpeharcsa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 41, 2 ]
   },
   {
     "ID": 41,
     "Name": "fekete törpeharcsa",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://likebalaton.hu/telepules/balaton/hireink/a-fekete-torpeharcsa-miatt-kernek-segitseget-a-balatonnal-257336/",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 40, 2 ]
   },
   {
     "ID": 42,
     "Name": "naphal",
     "Category": "idegenhonos, invazív",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 41, 2, 7, 5, 28 ]
   },
   {
     "ID": 43,
@@ -312,14 +312,14 @@
     "Name": "kecsege",
     "Category": "nem fogható/külön időszakos engedéllyel fogható őshonos",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 49, 50, 51, 52 ]
   },
   {
     "ID": 46,
     "Name": "széles kárász",
     "Category": "nem fogható/külön időszakos engedéllyel fogható őshonos",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 37, 1 ]
   },
   {
     "ID": 47,
@@ -382,7 +382,7 @@
     "Name": "nyúldomolykó",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": []
+    "SimilarSpecies": [ 21, 22 ]
   },
   {
     "ID": 56,
