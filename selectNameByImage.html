@@ -53,6 +53,11 @@ ul#horizontal-list li {
     float: left;
     width: 50%;
 }
+.title {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: inline-block;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -102,12 +107,11 @@ ul#horizontal-list li {
 
 <div id="app">
   <div>
-	<div class="float-left">
-			Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }}) | Hibák: {{ mistakeIndexes.length }} <span :class="{ show: mistakeIndexes.length > 0, hide: mistakeIndexes.length === 0 }">| <button @click="restartWithMistakes()">Hibásak gyakorlása</button></span> | <button @click="reset()">Újrakezdés</button>
-	</div>
+      <div>
+          <div class="title">{{ title }}</div> |
+          Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }}) | Hibák: {{ mistakeIndexes.length }} <span :class="{ show: mistakeIndexes.length > 0, hide: mistakeIndexes.length === 0 }">| <button @click="restartWithMistakes()">Hibásak gyakorlása</button></span> | <button @click="reset()">Újrakezdés</button>
+      </div>
   </div>
-
-  <h1>{{ title }}</h1>
   
   <div class="puzzle-container">
   	<p class="game-title">{{ gameTitle }}</p>
