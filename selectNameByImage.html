@@ -111,7 +111,7 @@ ul#horizontal-list li {
 <div id="app">
   <div>
       <div>
-          <div class="title">{{ title }}</div> |
+          <a href="index.html">Főoldal</a> &gt; <div class="title">{{ title }}</div> |
           Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }}) | Hibák: {{ mistakeIndexes.length }} <span :class="{ show: mistakeIndexes.length > 0, hide: mistakeIndexes.length === 0 }">| <button @click="restartWithMistakes()">Hibásak gyakorlása</button></span> | <button @click="reset()">Újrakezdés</button>
       </div>
   </div>
