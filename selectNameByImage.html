@@ -107,11 +107,11 @@ var jsons = [];
     }
 
     .overlay {
-        /*filter: blur(10px);
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);*/
+        filter: blur(10px);
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
     }
 
     .show {
@@ -164,8 +164,12 @@ var jsons = [];
             <div>{{ actualIndex }}/{{ totalPuzzleItemsCount }}</div>
             <div class="puzzle-image-container">
                 <img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
-                <div class="puzzle-image-text comment-on-answer" v-html="commentToShow"></div>
-                <button class="next-button" :class="{ 'show': isWrongAnswer, 'hide': !isWrongAnswer }" @click="continueAfterAnswer()">Tovább</button>
+                <div class="puzzle-image-text comment-on-answer">
+                    <span v-html="commentToShow"></span>
+                    <div>
+                        <button class="next-button" :class="{ 'show': isWrongAnswer, 'hide': !isWrongAnswer }" @click="continueAfterAnswer()">Tovább</button>
+                    </div>
+                </div>
                 <i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
             </div>
             <div class="row">
