@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Magyarország halai</title>
+<script>
+
+var jsons = [];
+
+</script>
+<style>
+h1 {text-align: center;}
+.right { color: darkGreen;}
+.wrong { color: red; }
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	paddig-top: 20px;
+}
+ul#horizontal-list li {
+	display: inline;
+}
+.choice {
+	margin-left: 10px;
+	margin-right: 10px;
+    margin-bottom: 10px;
+	font-size: 2em;
+    width: 99%;
+}
+.puzzle-container {
+	text-align: center;
+}
+.comment-on-answer {
+	text-align: center;
+	font-size: 3em;
+}
+.game-title { 
+	font-size: 2em;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ .right-selected {
+     background-color: green;
+ }
+ .wrong-selected {
+     background-color: red;
+ }
+/* Container holding the image and the text */
+.puzzle-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Centered text */
+.puzzle-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.overlay {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+}
+</style>
+</head>
+
+<body>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<div id="app">
+  <div>
+	<div class="float-left">
+			<button @click="reset()">Újrakezdés</button>
+			Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }})
+	</div>
+  </div>
+
+  <h1>{{ title }}</h1>
+  
+  <div class="puzzle-container">
+  	<p class="game-title">{{ gameTitle }}</p>
+  	<div>{{ actualIndex }}/{{ totalSpeciesCount }}</div>
+  	<div class="puzzle-image-container">
+  		<img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
+        <div class="puzzle-image-text comment-on-answer" v-html="commentToShow"></div>
+  		<i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
+  	</div>
+  	<div class="row">
+  		<div class="column">
+  			<button :class="{ 'right-selected': choiceIsRight[0], 'wrong-selected': choiceIsWrong[0] }" class="choice" @click="answered(choices[0])">{{ choices[0] }}</button>
+  		</div>
+  		<div class="column">
+  			<button :class="{ 'right-selected': choiceIsRight[1], 'wrong-selected': choiceIsWrong[1] }" class="choice" @click="answered(choices[1])">{{ choices[1] }}</button>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="column">
+  			<button :class="{ 'right-selected': choiceIsRight[2], 'wrong-selected': choiceIsWrong[2] }" class="choice" @click="answered(choices[2])">{{ choices[2] }}</button>
+  		</div>
+  		<div class="column">
+  			<button :class="{ 'right-selected': choiceIsRight[3], 'wrong-selected': choiceIsWrong[3] }" class="choice" @click="answered(choices[3])">{{ choices[3] }}</button>
+  		</div>
+  	</div>
+  </div>
+  
+</div>
+
+<script type="module" src="./selectNameByImage.js"></script>
+
+</body>
+
+</html>
