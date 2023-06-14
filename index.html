@@ -28,7 +28,9 @@ ul#horizontal-list li {
 .choice {
 	margin-left: 10px;
 	margin-right: 10px;
+    margin-bottom: 10px;
 	font-size: 2em;
+    width: 99%;
 }
 .puzzle-container {
 	text-align: center;
@@ -45,6 +47,17 @@ ul#horizontal-list li {
 }
 .float-right {
 	float: right;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 </style>
 </head>
@@ -73,12 +86,21 @@ ul#horizontal-list li {
   		<img v-bind:src="puzzleImage" alt="Mi ez a hal?" />
   		<i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
   	</div>
-  	<div class="table">
-  		<ul id="horizontal-list">
-  			<li v-for="answer in choices">
-  				<button class="choice" @click="answered(answer)">{{ answer }}</button>
-  			</li>
-  		</ul>
+  	<div class="row">
+  		<div class="column">
+  			<button class="choice" @click="answered(choices[0])">{{ choices[0] }}</button>
+  		</div>
+  		<div class="column">
+  			<button class="choice" @click="answered(choices[1])">{{ choices[1] }}</button>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="column">
+  			<button class="choice" @click="answered(choices[2])">{{ choices[2] }}</button>
+  		</div>
+  		<div class="column">
+  			<button class="choice" @click="answered(choices[3])">{{ choices[3] }}</button>
+  		</div>
   	</div>
   </div>
   
