@@ -76,8 +76,8 @@
     "Name": "angolna",
     "Category": "őshonos, fogható",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 48, 80 ],
-    "DistinctionInfo": "A hengeres, kígyószerű törzs átmenet nélkül kapcsolódik a farokrészhez. Az úszók egységes úszószegéllyé alakultak át."
+    "SimilarSpecies": [ 48 ],
+    "DistinctionInfo": "A hengeres, kígyószerű törzs átmenet nélkül kapcsolódik a farokrészhez. Az úszók egységes úszószegéllyé alakultak át. Az ingolával ellentétben állkapcsa és mellúszója is van."
   },
   {
     "ID": 11,
@@ -377,11 +377,11 @@
   },
   {
     "ID": 48,
-    "Name": "tiszai ingola",
+    "Name": "dunai vagy tiszai ingola",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 10, 80 ],
-    "DistinctionInfo": ""
+    "SimilarSpecies": [ 10 ],
+    "DistinctionInfo": "Az angolna fiatalabb egyedei is hasonlítanak hozzá, de jól látható különbség, hogy az angolnának állkapcsa és mellúszója is van."
   },
   {
     "ID": 49,
@@ -629,14 +629,6 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
     "SimilarSpecies": [],
-    "DistinctionInfo": ""
-  },
-  {
-    "ID": 80,
-    "Name": "duani ingola",
-    "Category": "természetvédetvédelmi oltalom alatt álló",
-    "ImageSource": "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
-    "SimilarSpecies": [ 10, 48 ],
     "DistinctionInfo": ""
   }
 ]
