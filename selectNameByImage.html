@@ -156,6 +156,7 @@ var jsons = [];
             <div>
                 <a href="index.html">Főoldal</a> &gt; <div class="title">{{ title }}</div> |
                 Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }}) | Hibák: {{ mistakeIndexes.length }} <span :class="{ show: mistakeIndexes.length > 0, hide: mistakeIndexes.length === 0 }">| <button @click="restartWithMistakes()">Hibásak gyakorlása</button></span> | <button @click="reset()">Újrakezdés</button>
+                | <a href="mailto:hufishquiz@gmail.com?subject=Visszajelzés a weboldalról">Visszajelzés küldése</a>
             </div>
         </div>
 
