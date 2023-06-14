@@ -111,7 +111,7 @@ ul#horizontal-list li {
   	<div>{{ actualIndex }}/{{ totalSpeciesCount }}</div>
   	<div class="puzzle-image-container">
   		<img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
-        <div class="puzzle-image-text" v-html="commentToShow"></div>
+        <div class="puzzle-image-text comment-on-answer" v-html="commentToShow"></div>
   		<i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
   	</div>
   	<div class="row">
