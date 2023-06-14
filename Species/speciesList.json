@@ -3,7 +3,10 @@
     "ID": 1,
     "Name": "ponty",
     "Category": "őshonos, fogható",
-    "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
+    "ImageSource": [
+      "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
+      "http://www.peres.hu/index.php/horgaszoknak/halfajok/ponty"
+    ],
     "SimilarSpecies": [ 37, 46 ],
     "DistinctionInfo": "Legjobban az ezüstkárász hasonlít hozzá, de annak nincs bajusza, továbbá összetéveszthető a nem fogható széles kárásszal is, de annak sincs bajusza, és hátúszója lekerekített, domború szélű. "
   },
@@ -11,7 +14,10 @@
     "ID": 2,
     "Name": "harcsa",
     "Category": "őshonos, fogható",
-    "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
+    "ImageSource": [
+      "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
+      "https://kapjra.hu/kis-halhatarozo/harcsa/"
+    ],
     "SimilarSpecies": [ 40, 41, 9 ],
     "DistinctionInfo": "2,5 m is lehet a hossza. Teste a többi hazai halunktól különbözik. Feje lapított, teste pikkelytelen. Feje nagy és széles, szeme kicsi. Nagy, félig fölső állású száján a felső ajakon, a szájszeglet közelében 2 hosszú, alul 4 rövidebb bajuszszálat találunk. Szélesre nyíló szájában felül és alul rendkívül sok apró, kissé visszahajló, tűhegyes ránőtt fog helyezkedik el (ez az ún. gerebenfogazat)."
   },
@@ -27,7 +33,10 @@
     "ID": 4,
     "Name": "balin",
     "Category": "őshonos, fogható",
-    "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
+    "ImageSource": [
+      "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
+      "http://www.peres.hu/index.php/horgaszoknak/halfajok/balin"
+    ],
     "SimilarSpecies": [],
     "DistinctionInfo": "Félig felső állású szája nagy, szájszöglete a szem alá nyúlik. Alsó állkapcsának csúcsa kissé, felfelé hajló, enyhén kampós."
   },
@@ -35,7 +44,10 @@
     "ID": 5,
     "Name": "fogassüllő",
     "Category": "őshonos, fogható",
-    "ImageSource": [ "https://www.khesz.hu/ebfog-vagy-nem-ebfog-sullok-a-horgon/" ],
+    "ImageSource": [
+      "https://www.khesz.hu/ebfog-vagy-nem-ebfog-sullok-a-horgon/",
+      "https://hu.wikipedia.org/wiki/Fogass%C3%BCll%C5%91#/media/F%C3%A1jl:Sander_lucioperca.jpg"
+    ],
     "SimilarSpecies": [ 6, 7, 28 ],
     "DistinctionInfo": "Csúcsba nyíló szája nagy, benne erős fogak ülnek, az állkapocs csúcsán nagy, ún. ebfogak vannak, így különbözhethető meg a kősüllőtől."
   },
