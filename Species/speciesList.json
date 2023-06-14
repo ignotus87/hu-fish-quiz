@@ -12,7 +12,7 @@
     "Name": "harcsa",
     "Category": "őshonos, fogható",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [ 41, 42, 9 ],
+    "SimilarSpecies": [ 40, 41, 9 ],
     "DistinctionInfo": "2,5 m is lehet a hossza. Teste a többi hazai halunktól különbözik. Feje lapított, teste pikkelytelen. Feje nagy és széles, szeme kicsi. Nagy, félig fölső állású száján a felső ajakon, a szájszeglet közelében 2 hosszú, alul 4 rövidebb bajuszszálat találunk. Szélesre nyíló szájában felül és alul rendkívül sok apró, kissé visszahajló, tűhegyes ránőtt fog helyezkedik el (ez az ún. gerebenfogazat)."
   },
   {
@@ -36,7 +36,7 @@
     "Name": "fogassüllő",
     "Category": "őshonos, fogható",
     "ImageSource": [ "https://www.khesz.hu/ebfog-vagy-nem-ebfog-sullok-a-horgon/" ],
-    "SimilarSpecies": [ 7, 28 ],
+    "SimilarSpecies": [ 6, 7, 28 ],
     "DistinctionInfo": "Csúcsba nyíló szája nagy, benne erős fogak ülnek, az állkapocs csúcsán nagy, ún. ebfogak vannak, így különbözhethető meg a kősüllőtől."
   },
   {
@@ -44,7 +44,7 @@
     "Name": "kősüllő",
     "Category": "őshonos, fogható",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 5, 7 ],
     "DistinctionInfo": "Ebfogai csak a kisebb példányoknak vannak, sávozása a fogassüllőnél erőteljesebb."
   },
   {

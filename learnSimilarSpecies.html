@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Magyarország halai</title>
+<script>
+
+var jsons = [];
+
+</script>
+<style>
+    h1 {
+        text-align: center;
+
+    }
+    h2 {
+        text-align: center;
+    }
+    .center {
+        text-align: center;
+    }
+
+    .title {
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    .pager {
+        margin-top: 10px;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<div id="app">
+    <div>
+        <div>
+            <a href="index.html">Főoldal</a> &gt; <div class="title">{{ title }}</div>
+        </div>
+    </div>
+
+    <div class="center pager">
+        <button @click="previousPage()">&lt;&lt;Előző</button>
+        <button @click="nextPage()">Következő&gt;&gt;</button>
+    </div>
+
+    <div class="center">
+        <h1>{{ (actualIndex+1) }}/{{ totalSpeciesCount }} - {{ actualSpecies.Name }}</h1>
+        <div>{{ actualSpecies.DistinctionInfo }}</div>
+        <span v-for="imageUrl in actualSpecies.ImageUrls">
+            <img v-bind:src="imageUrl" />
+        </span>
+    </div>
+
+    <hr />
+
+    <h2>Hasonló fajok</h2>
+
+    <div v-for="id in actualSpecies.SimilarSpecies" class="center">
+        <h3>{{ speciesList[id-1].Name }}</h3>
+        <div>{{ speciesList[id-1].DistinctionInfo }}</div>
+        <span v-for="imageUrl in speciesList[id-1].ImageUrls">
+            <img v-bind:src="imageUrl" />
+        </span>
+        <hr/>
+    </div>
+
+
+
+
+
+</div>
+
+<script type="module" src="./learnSimilarSpecies.js"></script>
+
+</body>
+
+</html>
