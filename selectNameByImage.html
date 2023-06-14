@@ -20,7 +20,7 @@ h1 {text-align: center;}
 ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
-	paddig-top: 20px;
+	padding-top: 20px;
 }
 ul#horizontal-list li {
 	display: inline;
@@ -86,6 +86,12 @@ ul#horizontal-list li {
     -o-filter: blur(10px);
     -ms-filter: blur(10px);
 }
+.show {
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
 </style>
 </head>
 
@@ -96,8 +102,7 @@ ul#horizontal-list li {
 <div id="app">
   <div>
 	<div class="float-left">
-			<button @click="reset()">Újrakezdés</button>
-			Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }})
+			Pontszám: {{ totalPoints }} / {{ numberOfAnsweredQuestions }} ({{ correctRatio }}) | Hibák: {{ mistakeIndexes.length }} <span :class="{ show: mistakeIndexes.length > 0, hide: mistakeIndexes.length === 0 }">| <button @click="restartWithMistakes()">Hibásak gyakorlása</button></span> | <button @click="reset()">Újrakezdés</button>
 	</div>
   </div>
 
@@ -105,7 +110,7 @@ ul#horizontal-list li {
   
   <div class="puzzle-container">
   	<p class="game-title">{{ gameTitle }}</p>
-  	<div>{{ actualIndex }}/{{ totalSpeciesCount }}</div>
+  	<div>{{ actualIndex }}/{{ totalPuzzleItemsCount }}</div>
   	<div class="puzzle-image-container">
   		<img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
         <div class="puzzle-image-text comment-on-answer" v-html="commentToShow"></div>
