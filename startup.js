@@ -22,7 +22,10 @@ speciesImport.then(data => {
                 numberOfAnsweredQuestions: 0,
                 numberOfCorrectAnswers: 0,
                 previousPuzzleIDs: [],
-                game: 'SelectNameByImage'
+                game: 'SelectNameByImage',
+                choices: [],
+                choiceIsRight: [false, false, false, false],
+                choiceIsWrong: [false, false, false, false]
             }
         },
         computed: {
@@ -34,9 +37,6 @@ speciesImport.then(data => {
             },
             puzzleImage() {
                 return "./SpeciesImages/" + this.puzzle.ID + (this.imageIndex === 0 ? "" : (this.imageIndex + 1).toString()) + ".png";
-            },
-            choices() {
-                return this.shuffle([this.puzzleName, this.incorrect1.Name, this.incorrect2.Name, this.incorrect3.Name]);
             },
             commentToShow() {
                 return this.comment;
@@ -124,13 +124,19 @@ speciesImport.then(data => {
                 return answer === this.puzzleName;
             },
             answered(answer) {
+                var indexOfAnswer = this.choices.indexOf(answer);
+
                 if (this.isCorrect(answer)) {
-                    this.comment = '<b class="right">Helyes!</b><br/><i>' + this.puzzle.Category + '</i>';
+                    this.comment = '<i>' + this.puzzle.Category + '</i>';
+                    this.choiceIsRight[indexOfAnswer] = true;
                     this.totalPoints++;
                     this.numberOfCorrectAnswers++;
                 }
                 else {
-                    this.comment = '<b class="wrong"><s>' + answer + '</s></b> <b class="right">' + this.puzzleName + "</b><br/><i>" + this.puzzle.Category + '</i>';
+                    this.comment = '<i>' + this.puzzle.Category + '</i>';
+                    this.choiceIsWrong[indexOfAnswer] = true;
+                    var indexOfCorrectAnswer = this.choices.indexOf(this.puzzleName);
+                    this.choiceIsRight[indexOfCorrectAnswer] = true;
                 }
                 ++this.numberOfAnsweredQuestions;
 
@@ -146,8 +152,10 @@ speciesImport.then(data => {
             },
             nextPuzzle() {
                 this.puzzle = this.getRandomSpecies();
-                this.imageIndex = Math.floor(Math.random() * this.nextPuzzle.ImageSource.length);
+                this.imageIndex = Math.floor(Math.random() * this.puzzle.ImageSource.length);
                 this.getIncorrectAnswers();
+                this.randomizeChoices();
+                this.resetChoiceColors();
                 this.actualIndex++;
             },
             startQuiz() {
@@ -158,6 +166,8 @@ speciesImport.then(data => {
                 this.numberOfAnsweredQuestions = 0;
                 this.puzzle = this.getRandomSpecies();
                 this.getIncorrectAnswers();
+                this.randomizeChoices();
+                this.resetChoiceColors();
                 this.comment = '';
             },
             reset() {
@@ -165,6 +175,13 @@ speciesImport.then(data => {
             },
             endGame() {
                 this.comment += "<br/>Vége a játéknak.";
+            },
+            randomizeChoices() {
+                this.choices = this.shuffle([this.puzzleName, this.incorrect1.Name, this.incorrect2.Name, this.incorrect3.Name]);
+            },
+            resetChoiceColors() {
+                this.choiceIsRight = [false, false, false, false];
+                this.choiceIsWrong = [false, false, false, false];
             }
         },
         created() {

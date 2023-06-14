@@ -59,6 +59,12 @@ ul#horizontal-list li {
     display: table;
     clear: both;
 }
+ .right-selected {
+     background-color: green;
+ }
+ .wrong-selected {
+     background-color: red;
+ }
 </style>
 </head>
 
@@ -88,18 +94,18 @@ ul#horizontal-list li {
   	</div>
   	<div class="row">
   		<div class="column">
-  			<button class="choice" @click="answered(choices[0])">{{ choices[0] }}</button>
+  			<button :class="{ 'right-selected': choiceIsRight[0], 'wrong-selected': choiceIsWrong[0] }" class="choice" @click="answered(choices[0])">{{ choices[0] }}</button>
   		</div>
   		<div class="column">
-  			<button class="choice" @click="answered(choices[1])">{{ choices[1] }}</button>
+  			<button :class="{ 'right-selected': choiceIsRight[1], 'wrong-selected': choiceIsWrong[1] }" class="choice" @click="answered(choices[1])">{{ choices[1] }}</button>
   		</div>
   	</div>
   	<div class="row">
   		<div class="column">
-  			<button class="choice" @click="answered(choices[2])">{{ choices[2] }}</button>
+  			<button :class="{ 'right-selected': choiceIsRight[2], 'wrong-selected': choiceIsWrong[2] }" class="choice" @click="answered(choices[2])">{{ choices[2] }}</button>
   		</div>
   		<div class="column">
-  			<button class="choice" @click="answered(choices[3])">{{ choices[3] }}</button>
+  			<button :class="{ 'right-selected': choiceIsRight[3], 'wrong-selected': choiceIsWrong[3] }" class="choice" @click="answered(choices[3])">{{ choices[3] }}</button>
   		</div>
   	</div>
   </div>
