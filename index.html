@@ -65,6 +65,27 @@ ul#horizontal-list li {
  .wrong-selected {
      background-color: red;
  }
+/* Container holding the image and the text */
+.puzzle-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Centered text */
+.puzzle-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.overlay {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+}
 </style>
 </head>
 
@@ -88,8 +109,9 @@ ul#horizontal-list li {
   <div class="puzzle-container">
   	<p class="game-title">{{ gameTitle }}</p>
   	<div>{{ actualIndex }}/{{ totalSpeciesCount }}</div>
-  	<div>
-  		<img v-bind:src="puzzleImage" alt="Mi ez a hal?" />
+  	<div class="puzzle-image-container">
+  		<img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
+        <div class="puzzle-image-text" v-html="commentToShow"></div>
   		<i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
   	</div>
   	<div class="row">
@@ -110,8 +132,6 @@ ul#horizontal-list li {
   	</div>
   </div>
   
-  <div class="comment-on-answer" v-html="commentToShow"></div>
-
 </div>
 
 <script type="module" src="./startup.js"></script>

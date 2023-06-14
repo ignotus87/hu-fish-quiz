@@ -25,7 +25,8 @@ speciesImport.then(data => {
                 game: 'SelectNameByImage',
                 choices: [],
                 choiceIsRight: [false, false, false, false],
-                choiceIsWrong: [false, false, false, false]
+                choiceIsWrong: [false, false, false, false],
+                isAnswered: false
             }
         },
         computed: {
@@ -124,6 +125,7 @@ speciesImport.then(data => {
                 return answer === this.puzzleName;
             },
             answered(answer) {
+                this.isAnswered = true;
                 var indexOfAnswer = this.choices.indexOf(answer);
 
                 if (this.isCorrect(answer)) {
@@ -157,6 +159,7 @@ speciesImport.then(data => {
                 this.randomizeChoices();
                 this.resetChoiceColors();
                 this.actualIndex++;
+                this.isAnswered = false;
             },
             startQuiz() {
                 this.previousPuzzleIDs = [];
@@ -169,6 +172,7 @@ speciesImport.then(data => {
                 this.randomizeChoices();
                 this.resetChoiceColors();
                 this.comment = '';
+                this.isAnswered = false;
             },
             reset() {
                 this.startQuiz()
