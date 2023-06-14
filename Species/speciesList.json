@@ -530,7 +530,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Vízszintes csíkos, míg a kövi csík foltos, a vágócsík pedig sorokban pöttyös."
   },
   {
     "ID": 67,
@@ -538,7 +538,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Sorokban pöttyös, míg a réti csík vízszintes csíkos, a kövi csík foltos."
   },
   {
     "ID": 68,
@@ -546,7 +546,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 66, 67, 69 ],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Foltos, míg a réti csík vízszintes csíkos, a vágócsík sorokban pöttyös."
   },
   {
     "ID": 69,
