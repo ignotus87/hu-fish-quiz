@@ -30,7 +30,8 @@ speciesImport.then(data => {
                 isAnswered: false,
                 mistakeIndexes: [],
                 gameType: 'all',
-                isWrongAnswer: false
+                isWrongAnswer: false,
+                continueTimeoutHandle: null
             }
         },
         computed: {
@@ -159,7 +160,7 @@ speciesImport.then(data => {
                     this.totalPoints++;
                     this.numberOfCorrectAnswers++;
 
-                    setTimeout(() => {
+                    this.continueTimeoutHandle = setTimeout(() => {
                         this.continueAfterAnswer();
                     }, 6000);
                 }
@@ -227,7 +228,11 @@ speciesImport.then(data => {
                 this.choiceIsWrong = [false, false, false, false];
             },
             continueAfterAnswer() {
-                console.log("continueAfterAnswer");
+
+                if (this.continueTimeoutHandle != null) {
+                    clearTimeout(this.continueTimeoutHandle);
+                }
+
                 if (this.previousPuzzleIDs.length >= this.totalPuzzleItemsCount) {
                     this.endGame();
                 }
