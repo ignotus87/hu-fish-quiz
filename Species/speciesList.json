@@ -476,8 +476,8 @@
     "Name": "kurta baing",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "SimilarSpecies": [ 77 ],
+    "DistinctionInfo": "A vaskos csabakhoz hasonlít, de annak az oldalvonalán színes csík, felette kékes sáv húzódik."
   },
   {
     "ID": 60,
@@ -620,8 +620,8 @@
     "Name": "vaskos csabak",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "SimilarSpecies": [ 59 ],
+    "DistinctionInfo": "A kurta bainghoz hasonlít, de annak az oldalán színes csík, kékes sáv nem húzódik."
   },
   {
     "ID": 78,
