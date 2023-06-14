@@ -359,7 +359,7 @@
     "Category": "nem fogható/külön időszakos engedéllyel fogható őshonos",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 49, 50, 51, 52 ],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Bajusza rojtozott."
   },
   {
     "ID": 46,
@@ -394,7 +394,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 50, 51, 52 ],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Bajuszszálai a felső ajakig nyúlnak. Orra rövidebb, mint a kecsegének."
   },
   {
     "ID": 50,
@@ -402,7 +402,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 49, 51, 52 ],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Vértpikkelyei éles csúcsúak."
   },
   {
     "ID": 51,
@@ -545,7 +545,7 @@
     "Name": "kövi csík",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 66, 67, 69 ],
     "DistinctionInfo": ""
   },
   {
@@ -562,7 +562,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Szabálytalan foltos mintázata van, a cifra kölöntének spirális."
   },
   {
     "ID": 71,
@@ -570,7 +570,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Neki spriális mintázata van, a botos kölöntének szabálytalan foltos."
   },
   {
     "ID": 72,
