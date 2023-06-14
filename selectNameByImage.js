@@ -151,6 +151,12 @@ speciesImport.then(data => {
                 return answer === this.puzzleName;
             },
             answered(answer) {
+                if (this.isAnswered) {
+                    // It's a second click, it should be a "continue" trigger
+                    this.continueAfterAnswer();
+                    return;
+                }
+
                 this.isAnswered = true;
                 var indexOfAnswer = this.choices.indexOf(answer);
 

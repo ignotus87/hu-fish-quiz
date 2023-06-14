@@ -93,10 +93,13 @@ ul#horizontal-list li {
     -ms-filter: blur(10px);*/
 }
 .show {
-    display: inline-block;
+    display: auto;
 }
 .hide {
     display: none;
+}
+.next-button {
+    z-index: 999;
 }
 </style>
 </head>
@@ -119,7 +122,7 @@ ul#horizontal-list li {
     <div class="puzzle-image-container">
         <img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
         <div class="puzzle-image-text comment-on-answer" v-html="commentToShow"></div>
-        <button :class="{ 'show': isAnswered, 'hide': !isAnswered }" @click="continueAfterAnswer()">Tovább</button>
+        <button class="next-button" :class="{ 'show': isWrongAnswer, 'hide': !isWrongAnswer }" @click="continueAfterAnswer()">Tovább</button>
         <i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
     </div>
   	<div class="row">
