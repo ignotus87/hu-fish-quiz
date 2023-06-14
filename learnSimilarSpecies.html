@@ -32,6 +32,32 @@ var jsons = [];
     button {
         margin-left: 10px;
     }
+
+    body {
+        background-image: url(Images/background.jpg);
+        display: flex;
+        min-height: 98vh;
+        flex-direction: column;
+        color: aliceblue;
+        font-family: Arial, sans-serif;
+    }
+
+    #app {
+        flex-grow: 1;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    a, a:visited {
+        color: aliceblue;
+        font-family: Arial, sans-serif;
+        text-decoration-color: aliceblue;
+    }
+    .header, .header a {
+        color: aliceblue;
+        font-family: Arial, sans-serif;
+    }
 </style>
 </head>
 
@@ -40,7 +66,7 @@ var jsons = [];
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
 <div id="app">
-    <div>
+    <div class="header">
         <div>
             <a href="index.html">Főoldal</a> &gt; <div class="title">{{ title }}</div>
         </div>
@@ -71,11 +97,10 @@ var jsons = [];
         </span>
         <hr/>
     </div>
+</div>
 
-
-
-
-
+<div class="footer">
+    Background by <a href="https://www.freepik.com/free-vector/school-fishes-background-with-deep-sea_2235607.htm#query=fish%20background&position=10&from_view=keyword&track=ais" target="_blank">Freepik</a>
 </div>
 
 <script type="module" src="./learnSimilarSpecies.js"></script>
