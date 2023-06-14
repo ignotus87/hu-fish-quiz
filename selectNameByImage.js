@@ -84,11 +84,9 @@ speciesImport.then(data => {
 
                 do {
                     var candidate = this.puzzleItems[Math.floor(Math.random() * this.puzzleItems.length)];
-                    console.log('candidate: ' + candidate.ID + '-' + candidate.Name);
                 } while (this.previousPuzzleIDs.some((id) => candidate.ID === id));
 
                 this.previousPuzzleIDs.push(candidate.ID);
-                console.log('added to previous puzzle ids')
 
                 return candidate;
             },
@@ -112,7 +110,6 @@ speciesImport.then(data => {
                 else {
                     this.incorrect1 = this.getRandomSpeciesFromAllItemsExceptIDs([this.puzzle.ID]);
                 }
-                console.log('got incorrect1 ' + this.incorrect1.ID + ' - ' + this.incorrect1.Name);
 
                 if (this.puzzle.SimilarSpecies.length >= 2) {
                     this.incorrect2 = this.speciesList.find((item) => item.ID === this.puzzle.SimilarSpecies[1]);
@@ -120,7 +117,6 @@ speciesImport.then(data => {
                 else {
                     this.incorrect2 = this.getRandomSpeciesFromAllItemsExceptIDs([this.puzzle.ID, this.incorrect1.ID]);
                 }
-                console.log('got incorrect2 ' + this.incorrect2.ID + ' - ' + this.incorrect2.Name);
 
                 if (this.puzzle.SimilarSpecies.length >= 3) {
                     this.incorrect3 = this.speciesList.find((item) => item.ID === this.puzzle.SimilarSpecies[2]);
@@ -128,7 +124,7 @@ speciesImport.then(data => {
                 else {
                     this.incorrect3 = this.getRandomSpeciesFromAllItemsExceptIDs([this.puzzle.ID, this.incorrect1.ID, this.incorrect2.ID]);
                 }
-                console.log('got incorrect3 ' + this.incorrect3.ID + ' - ' + this.incorrect3.Name);
+
             },
             shuffle(array) {
                 let currentIndex = array.length, randomIndex;
@@ -172,15 +168,10 @@ speciesImport.then(data => {
                 }
                 else {
                     this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo;
-                    console.log('comment added');
                     this.choiceIsWrong[indexOfAnswer] = true;
-                    console.log('choice is wrong');
                     this.mistakeIndexes.push(this.puzzle.ID);
-                    console.log('mistake pushed');
                     var indexOfCorrectAnswer = this.choices.indexOf(this.puzzleName);
-                    console.log('indexOfCorrectAnswer');
                     this.choiceIsRight[indexOfCorrectAnswer] = true;
-                    console.log('set correct as green');
                     this.isWrongAnswer = true;
                 }
                 ++this.numberOfAnsweredQuestions;
