@@ -9,7 +9,11 @@ var jsons = [];
 
 </script>
 <style>
-h1 {text-align: center;}
+h1, h2 {
+    text-align: center;
+    font-family: Arial;
+    color: aliceblue;
+}
 .right { color: darkGreen;}
 .wrong { color: red; }
 
@@ -17,7 +21,7 @@ h1 {text-align: center;}
     text-align: center;
 }
 .button {
-    font: bold 11px Arial;
+    font: bold 13px Arial;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
@@ -30,12 +34,25 @@ h1 {text-align: center;}
 .button-container {
     margin: 10px 10px 10px 10px;
 }
+body {
+    background-image: url(Images/background.jpg);
+    display: flex;
+    min-height: 98vh;
+    flex-direction: column;
+}
+.footer {
+    text-align: center;
+}
+#app {
+    flex-grow: 1;
+}
 </style>
 </head>
 
 <body>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
 
 <div id="app">
 
@@ -51,6 +68,8 @@ h1 {text-align: center;}
     </div>
 </div>
 
+<div class="footer">
+    Background by <a href="https://www.freepik.com/free-vector/school-fishes-background-with-deep-sea_2235607.htm#query=fish%20background&position=10&from_view=keyword&track=ais">Freepik</a>
 </div>
 
 <script type="module" src="./index.js"></script>
