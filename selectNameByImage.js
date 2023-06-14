@@ -29,7 +29,8 @@ speciesImport.then(data => {
                 choiceIsWrong: [false, false, false, false],
                 isAnswered: false,
                 mistakeIndexes: [],
-                gameType: 'all'
+                gameType: 'all',
+                isWrongAnswer: false
             }
         },
         computed: {
@@ -71,6 +72,9 @@ speciesImport.then(data => {
                         return "Hibásak gyakorlása: Melyik halat látod a képen?";
                     }
                 }
+            },
+            isRightAnswer() {
+                return !this.isWrongAnswer;
             }
         },
         methods: {
@@ -160,7 +164,7 @@ speciesImport.then(data => {
                     }, 6000);
                 }
                 else {
-                    this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo + '<button @click="continueAfterAnswer()">Tovább</button>';
+                    this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo;
                     console.log('comment added');
                     this.choiceIsWrong[indexOfAnswer] = true;
                     console.log('choice is wrong');
@@ -170,6 +174,7 @@ speciesImport.then(data => {
                     console.log('indexOfCorrectAnswer');
                     this.choiceIsRight[indexOfCorrectAnswer] = true;
                     console.log('set correct as green');
+                    this.isWrongAnswer = true;
                 }
                 ++this.numberOfAnsweredQuestions;
 
@@ -183,6 +188,7 @@ speciesImport.then(data => {
                 this.resetChoiceColors();
                 this.actualIndex++;
                 this.isAnswered = false;
+                this.isWrongAnswer = false;
             },
             startQuiz() {
                 this.previousPuzzleIDs = [];
@@ -196,6 +202,7 @@ speciesImport.then(data => {
                 this.resetChoiceColors();
                 this.comment = '';
                 this.isAnswered = false;
+                this.isWrongAnswer = false;
             },
             reset() {
                 this.gameType = 'all';
@@ -220,6 +227,7 @@ speciesImport.then(data => {
                 this.choiceIsWrong = [false, false, false, false];
             },
             continueAfterAnswer() {
+                console.log("continueAfterAnswer");
                 if (this.previousPuzzleIDs.length >= this.totalPuzzleItemsCount) {
                     this.endGame();
                 }

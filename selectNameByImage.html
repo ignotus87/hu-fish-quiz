@@ -112,11 +112,12 @@ ul#horizontal-list li {
   <div class="puzzle-container">
   	<p class="game-title">{{ gameTitle }}</p>
   	<div>{{ actualIndex }}/{{ totalPuzzleItemsCount }}</div>
-  	<div class="puzzle-image-container">
-  		<img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
+    <div class="puzzle-image-container">
+        <img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
         <div class="puzzle-image-text comment-on-answer" v-html="commentToShow"></div>
-  		<i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
-  	</div>
+        <button :class="{ 'show': isWrongAnswer, 'hide': isRightAnswer }" @click="continueAfterAnswer()">Tovább</button>
+        <i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
+    </div>
   	<div class="row">
   		<div class="column">
   			<button :class="{ 'right-selected': choiceIsRight[0], 'wrong-selected': choiceIsWrong[0] }" class="choice" @click="answered(choices[0])">{{ choices[0] }}</button>
