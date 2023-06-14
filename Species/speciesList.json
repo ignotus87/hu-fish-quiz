@@ -131,7 +131,10 @@
     "ID": 17,
     "Name": "vörösszárnyú keszeg",
     "Category": "őshonos, fogható",
-    "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
+    "ImageSource": [
+      "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv",
+      "https://mttmuzeum.blog.hu/2019/03/28/hinarmezok_baranya"
+    ],
     "SimilarSpecies": [ 16 ],
     "DistinctionInfo": "Holtmedrek, kisebb nyugodt tavak hala. A bodorkával ellentétben hátúszója a hasúszó alapjánál hátrébb kezdődik."
   },
@@ -236,7 +239,7 @@
     "Name": "lapátorrú tok",
     "Category": "idegenhonos, fogható",
     "ImageSource": [ "https://sokszinuvidek.24.hu/mozaik/2022/11/27/orszagos-rekordot-dontott-a-gigantikus-lapatorru/" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 52 ],
     "DistinctionInfo": "Nagy termetű. Színe halvány szürkéskék vagy olajzöld. Horgásztavakba telepítették, a Dunában is előfordul."
   },
   {
@@ -417,16 +420,16 @@
     "Name": "sőregtok",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "SimilarSpecies": [ 30, 50 ],
+    "DistinctionInfo": "A vágótokhoz hasonlóan éles vértpikkelyei vannak, de az orra hosszabb."
   },
   {
     "ID": 53,
     "Name": "leánykoncér",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://hu.wikipedia.org/wiki/Le%C3%A1nykonc%C3%A9r#/media/F%C3%A1jl:Rutilus_virgo_le%C3%A1nykonc%C3%A9r.jpg" ],
-    "SimilarSpecies": [ 54, 16 ],
-    "DistinctionInfo": ""
+    "SimilarSpecies": [ 54, 16, 19 ],
+    "DistinctionInfo": "Szeme színe fehéres, nem narancsos. A nagyobb példányok úszója narancsos-vöröses."
   },
   {
     "ID": 54,
