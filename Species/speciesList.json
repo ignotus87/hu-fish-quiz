@@ -295,7 +295,7 @@
     "Category": "idegenhonos, invazív",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 1, 46 ],
-    "DistinctionInfo": "Behozták az országba, de magától is előfordulhatott. Sekély tavakban fordul elő. A széles kárászhoz hasonlít, de annek a hátúszója lekerekített. Hasonlít hozzá a ponty is, de annak van bajusza."
+    "DistinctionInfo": "Behozták az országba, de magától is előfordulhatott. Sekély tavakban fordul elő. A széles kárászhoz hasonlít, de annak a háta magasabb. Hasonlít hozzá a ponty is, de annak van bajusza."
   },
   {
     "ID": 38,
@@ -325,7 +325,7 @@
     "ID": 41,
     "Name": "fekete törpeharcsa",
     "Category": "idegenhonos, invazív",
-    "ImageSource": "https://likebalaton.hu/telepules/balaton/hireink/a-fekete-torpeharcsa-miatt-kernek-segitseget-a-balatonnal-257336/",
+    "ImageSource": [ "https://likebalaton.hu/telepules/balaton/hireink/a-fekete-torpeharcsa-miatt-kernek-segitseget-a-balatonnal-257336/" ],
     "SimilarSpecies": [ 40, 2 ],
     "DistinctionInfo": ""
   },
@@ -367,7 +367,7 @@
     "Category": "nem fogható/külön időszakos engedéllyel fogható őshonos",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 37, 1 ],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Az ezüstkárászra hasonlít, de annak a háta nem ilyen magas. Hasonlít hozzá a ponty is, de annak van bajusza."
   },
   {
     "ID": 47,
@@ -434,7 +434,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 53, 16 ],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "A leánykoncérénál apróbb pikkelyei vannak."
   },
   {
     "ID": 55,
@@ -442,7 +442,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [ 21, 22, 18 ],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "Farok alatti úszójának szegélye homorú. Úszói halványabbak a domolykóénál."
   },
   {
     "ID": 56,
@@ -594,7 +594,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "A német bucóhoz hasonlít, de a magyar inkább foltos, a német inkább csíkos."
   },
   {
     "ID": 75,
@@ -602,7 +602,7 @@
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
     "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "DistinctionInfo": "A magyar bucóhoz hasonlít, de a magyar inkább foltos, a német inkább csíkos."
   },
   {
     "ID": 76,
