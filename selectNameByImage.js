@@ -43,7 +43,7 @@ speciesImport.then(data => {
                 return this.puzzle.Name;
             },
             puzzleImage() {
-                return "./SpeciesImages/" + this.puzzle.ID + (this.imageIndex === 0 ? "" : (this.imageIndex + 1).toString()) + ".png";
+                return "./SpeciesImages/" + this.puzzle.ID + (this.imageIndex === 0 ? "" : "_" + (this.imageIndex + 1).toString()) + ".png";
             },
             commentToShow() {
                 return this.comment;
@@ -150,13 +150,13 @@ speciesImport.then(data => {
                 var indexOfAnswer = this.choices.indexOf(answer);
 
                 if (this.isCorrect(answer)) {
-                    this.comment = '<i>' + this.puzzle.Category + '</i>';
+                    this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo;
                     this.choiceIsRight[indexOfAnswer] = true;
                     this.totalPoints++;
                     this.numberOfCorrectAnswers++;
                 }
                 else {
-                    this.comment = '<i>' + this.puzzle.Category + '</i>';
+                    this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo;
                     console.log('comment added');
                     this.choiceIsWrong[indexOfAnswer] = true;
                     console.log('choice is wrong');
@@ -177,7 +177,7 @@ speciesImport.then(data => {
                         this.nextPuzzle();
                         this.comment = '';
                     }
-                }, this.isCorrect(answer) ? 2000 : 4000);
+                }, this.isCorrect(answer) ? 4000 : 6000);
             },
             nextPuzzle() {
                 this.puzzle = this.getRandomSpecies();
