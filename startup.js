@@ -18,6 +18,7 @@ speciesImport.then(data => {
                 comment: '',
                 actualIndex: 1,
                 totalPoints: 0,
+                imageIndex: 0,
                 numberOfAnsweredQuestions: 0,
                 numberOfCorrectAnswers: 0,
                 previousPuzzleIDs: [],
@@ -32,7 +33,7 @@ speciesImport.then(data => {
                 return this.puzzle.Name;
             },
             puzzleImage() {
-                return "./SpeciesImages/" + this.puzzle.ID + ".png";
+                return "./SpeciesImages/" + this.puzzle.ID + (this.imageIndex === 0 ? "" : (this.imageIndex + 1).toString()) + ".png";
             },
             choices() {
                 return this.shuffle([this.puzzleName, this.incorrect1.Name, this.incorrect2.Name, this.incorrect3.Name]);
@@ -49,7 +50,7 @@ speciesImport.then(data => {
                 }
             },
             imageSource() {
-                let temp = this.puzzle.ImageSource.replace('https://', '').replace('http://', '');
+                let temp = this.puzzle.ImageSource[this.imageIndex].replace('https://', '').replace('http://', '');
                 if (temp.indexOf('/') > 0) {
                     temp = temp.substring(0, temp.indexOf('/'))
                 }
@@ -145,6 +146,7 @@ speciesImport.then(data => {
             },
             nextPuzzle() {
                 this.puzzle = this.getRandomSpecies();
+                this.imageIndex = Math.floor(Math.random() * this.nextPuzzle.ImageSource.length);
                 this.getIncorrectAnswers();
                 this.actualIndex++;
             },
