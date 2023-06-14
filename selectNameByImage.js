@@ -154,9 +154,13 @@ speciesImport.then(data => {
                     this.choiceIsRight[indexOfAnswer] = true;
                     this.totalPoints++;
                     this.numberOfCorrectAnswers++;
+
+                    setTimeout(() => {
+                        this.continueAfterAnswer();
+                    }, 6000);
                 }
                 else {
-                    this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo;
+                    this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo + '<button @click="continueAfterAnswer()">Tovább</button>';
                     console.log('comment added');
                     this.choiceIsWrong[indexOfAnswer] = true;
                     console.log('choice is wrong');
@@ -169,15 +173,7 @@ speciesImport.then(data => {
                 }
                 ++this.numberOfAnsweredQuestions;
 
-                setTimeout(() => {
-                    if (this.previousPuzzleIDs.length >= this.totalPuzzleItemsCount) {
-                        this.endGame();
-                    }
-                    else {
-                        this.nextPuzzle();
-                        this.comment = '';
-                    }
-                }, this.isCorrect(answer) ? 4000 : 6000);
+
             },
             nextPuzzle() {
                 this.puzzle = this.getRandomSpecies();
@@ -222,6 +218,15 @@ speciesImport.then(data => {
             resetChoiceColors() {
                 this.choiceIsRight = [false, false, false, false];
                 this.choiceIsWrong = [false, false, false, false];
+            },
+            continueAfterAnswer() {
+                if (this.previousPuzzleIDs.length >= this.totalPuzzleItemsCount) {
+                    this.endGame();
+                }
+                else {
+                    this.nextPuzzle();
+                    this.comment = '';
+                }
             }
         },
         created() {
