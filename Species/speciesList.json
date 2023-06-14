@@ -497,7 +497,7 @@
     "Name": "felpillantó küllő",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 63, 64 ],
     "DistinctionInfo": ""
   },
   {
@@ -505,7 +505,7 @@
     "Name": "halványfoltú küllő",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 65, 64 ],
     "DistinctionInfo": ""
   },
   {
@@ -513,7 +513,7 @@
     "Name": "homoki küllő",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 62, 63 ],
     "DistinctionInfo": ""
   },
   {
@@ -561,7 +561,7 @@
     "Name": "botos kölönte",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 71 ],
     "DistinctionInfo": "Szabálytalan foltos mintázata van, a cifra kölöntének spirális."
   },
   {
@@ -569,7 +569,7 @@
     "Name": "cifra kölönte",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
+    "SimilarSpecies": [ 70 ],
     "DistinctionInfo": "Neki spriális mintázata van, a botos kölöntének szabálytalan foltos."
   },
   {
@@ -577,16 +577,16 @@
     "Name": "széles durbincs",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "SimilarSpecies": [ 73 ],
+    "DistinctionInfo": "Függőleges csíkjai vannak, míg a selymes durbincsnak vízszintes."
   },
   {
     "ID": 73,
     "Name": "selymes durbincs",
     "Category": "természetvédetvédelmi oltalom alatt álló",
     "ImageSource": [ "https://portal.nebih.gov.hu/-/horgaszvizsgara-valo-felkeszulest-segito-tankonyv" ],
-    "SimilarSpecies": [],
-    "DistinctionInfo": ""
+    "SimilarSpecies": [ 72 ],
+    "DistinctionInfo": "Vízszintes csíkjai vannak, míg a széles durbincsnak függőleges."
   },
   {
     "ID": 74,
