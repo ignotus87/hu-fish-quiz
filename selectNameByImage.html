@@ -188,7 +188,7 @@
                 <div class="puzzle-image-text comment-on-answer">
                     <span v-html="commentToShow"></span>
                     <div>
-                        <button class="next-button" :class="{ 'show': isWrongAnswer, 'hide': !isWrongAnswer }" @click="continueAfterAnswer()">Tovább</button>
+                        <button class="next-button" :class="{ 'show': isAnswered, 'hide': !isAnswered }" @click="continueAfterAnswer()">Tovább ({{ timeoutSeconds }})</button>
                     </div>
                 </div>
                 <i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>

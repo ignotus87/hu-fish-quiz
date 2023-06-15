@@ -31,7 +31,8 @@ speciesImport.then(data => {
                 mistakeIndexes: [],
                 gameType: 'all',
                 isWrongAnswer: false,
-                continueTimeoutHandle: null
+                continueTimeoutHandle: null,
+                timeoutSeconds: 0
             }
         },
         computed: {
@@ -162,9 +163,7 @@ speciesImport.then(data => {
                     this.totalPoints++;
                     this.numberOfCorrectAnswers++;
 
-                    this.continueTimeoutHandle = setTimeout(() => {
-                        this.continueAfterAnswer();
-                    }, 6000);
+                    this.timeoutSeconds = 6;
                 }
                 else {
                     this.comment = '<i>' + this.puzzle.Category + '</i><br/>' + this.puzzle.DistinctionInfo;
@@ -173,10 +172,24 @@ speciesImport.then(data => {
                     var indexOfCorrectAnswer = this.choices.indexOf(this.puzzleName);
                     this.choiceIsRight[indexOfCorrectAnswer] = true;
                     this.isWrongAnswer = true;
+
+                    this.timeoutSeconds = 12;
                 }
+
+                this.continueTimeoutHandle = setTimeout(() => this.countdownToContinue(), 1000);
+
                 ++this.numberOfAnsweredQuestions;
 
 
+            },
+            countdownToContinue() {
+                if (this.timeoutSeconds > 0) {
+                    this.timeoutSeconds--;
+                    this.continueTimeoutHandle = setTimeout(() => this.countdownToContinue(), 1000);
+                }
+                else {
+                    this.continueAfterAnswer();
+                }
             },
             nextPuzzle() {
                 this.puzzle = this.getRandomSpecies();
