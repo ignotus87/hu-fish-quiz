@@ -1,150 +1,170 @@
 <!doctype html>
 <html lang=en>
 <head>
-<meta charset=utf-8>
-<title>Magyarország halai</title>
-<script>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-var jsons = [];
+    <title>Magyarország halai</title>
+    <script>
 
-</script>
-<style>
-    h1 {
-        text-align: center;
-    }
+        var jsons = [];
 
-    .right {
-        color: darkGreen;
-    }
-
-    .wrong {
-        color: red;
-    }
-
-    .table {
-        display: table;
-        margin: 0 auto;
-    }
-
-    ul#horizontal-list {
-        min-width: 696px;
-        list-style: none;
-        padding-top: 20px;
-    }
-
-        ul#horizontal-list li {
-            display: inline;
+    </script>
+    <style>
+        h1 {
+            text-align: center;
         }
 
-    .choice {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        font-size: 2em;
-        width: 99%;
-    }
+        .right {
+            color: darkGreen;
+        }
 
-    .puzzle-container {
-        text-align: center;
-    }
+        .wrong {
+            color: red;
+        }
 
-    .comment-on-answer {
-        text-align: center;
-        font-size: 2em;
-        background-color: white;
-    }
+        .table {
+            display: table;
+            margin: 0 auto;
+        }
 
-    .game-title {
-        font-size: 2em;
-    }
+        ul#horizontal-list {
+            min-width: 696px;
+            list-style: none;
+            padding-top: 20px;
+        }
 
-    .float-left {
-        float: left;
-    }
+            ul#horizontal-list li {
+                display: inline;
+            }
 
-    .float-right {
-        float: right;
-    }
+        .choice {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            width: 99%;
+        }
 
-    .column {
-        float: left;
-        width: 50%;
-    }
+        .puzzle-container {
+            text-align: center;
+        }
 
-    .title {
-        font-size: 1.3em;
-        font-weight: bold;
-        display: inline-block;
-    }
+        .comment-on-answer {
+            text-align: center;
+            font-size: 2em;
+            background-color: white;
+        }
 
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+        .game-title {
+            font-size: 2em;
+        }
 
-    .right-selected {
-        background-color: green;
-    }
+        .float-left {
+            float: left;
+        }
 
-    .wrong-selected {
-        background-color: red;
-    }
-    /* Container holding the image and the text */
-    .puzzle-image-container {
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    /* Centered text */
-    .puzzle-image-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
+        .float-right {
+            float: right;
+        }
 
-    .overlay {
-        filter: blur(10px);
-        -webkit-filter: blur(10px);
-        -moz-filter: blur(10px);
-        -o-filter: blur(10px);
-        -ms-filter: blur(10px);
-    }
+        .title {
+            font-size: 1.3em;
+            font-weight: bold;
+            display: inline-block;
+        }
 
-    .show {
-        display: auto;
-    }
+        .right-selected {
+            background-color: green;
+        }
 
-    .hide {
-        display: none;
-    }
+        .wrong-selected {
+            background-color: red;
+        }
+        /* Container holding the image and the text */
+        .puzzle-image-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
 
-    .next-button {
-        z-index: 999;
-    }
+        .puzzle-image {
+            max-width: 100%;
+        }
 
-    body {
-        background-image: url(Images/background.jpg);
-        display: flex;
-        min-height: 98vh;
-        flex-direction: column;
-        color: aliceblue;
-        font-family: Arial, sans-serif;
-    }
-    #app {
-        flex-grow: 1;
-    }
-    .footer {
-        text-align: center;
-    }
-    .header, .header a {
-        color: aliceblue;
-        font-family: Arial, sans-serif;
-    }
-</style>
+        /* Centered text */
+        .puzzle-image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+        }
+
+        .overlay {
+            filter: blur(10px);
+            -webkit-filter: blur(10px);
+            -moz-filter: blur(10px);
+            -o-filter: blur(10px);
+            -ms-filter: blur(10px);
+        }
+
+        .show {
+            display: auto;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .next-button {
+            z-index: 999;
+            font-size: 1.3em;
+        }
+
+        body {
+            background-image: url(Images/background.jpg);
+            display: flex;
+            min-height: 98vh;
+            flex-direction: column;
+            color: aliceblue;
+            font-family: Arial, sans-serif;
+        }
+
+        #app {
+            flex-grow: 1;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        .header, .header a {
+            color: aliceblue;
+            font-family: Arial, sans-serif;
+        }
+
+        .choice-container {
+            display: grid;
+            grid-template-columns: 0.8fr;
+            justify-content: center;
+        }
+
+        .choice-container .choice {
+            height: 100%;
+        }
+
+        .choice {
+            max-width: 95%;
+        }
+
+        @media (min-width: 768px) {
+            /*For mobile phones */
+            .choice-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -164,7 +184,7 @@ var jsons = [];
             <p class="game-title">{{ gameTitle }}</p>
             <div>{{ actualIndex }}/{{ totalPuzzleItemsCount }}</div>
             <div class="puzzle-image-container">
-                <img v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
+                <img class="puzzle-image" v-bind:src="puzzleImage" :class="{ 'overlay': isAnswered }" alt="Mi ez a hal?" />
                 <div class="puzzle-image-text comment-on-answer">
                     <span v-html="commentToShow"></span>
                     <div>
@@ -173,19 +193,18 @@ var jsons = [];
                 </div>
                 <i><small><br />Forrás: <a v-bind:href="puzzle.ImageSource" target="_blank">{{ imageSource }}</a></small></i>
             </div>
-            <div class="row">
-                <div class="column">
+
+            <div class="choice-container">
+                <div class="choice">
                     <button :class="{ 'right-selected': choiceIsRight[0], 'wrong-selected': choiceIsWrong[0] }" class="choice" @click="answered(choices[0])">{{ choices[0] }}</button>
                 </div>
-                <div class="column">
+                <div class="choice">
                     <button :class="{ 'right-selected': choiceIsRight[1], 'wrong-selected': choiceIsWrong[1] }" class="choice" @click="answered(choices[1])">{{ choices[1] }}</button>
                 </div>
-            </div>
-            <div class="row">
-                <div class="column">
+                <div class="choice">
                     <button :class="{ 'right-selected': choiceIsRight[2], 'wrong-selected': choiceIsWrong[2] }" class="choice" @click="answered(choices[2])">{{ choices[2] }}</button>
                 </div>
-                <div class="column">
+                <div class="choice">
                     <button :class="{ 'right-selected': choiceIsRight[3], 'wrong-selected': choiceIsWrong[3] }" class="choice" @click="answered(choices[3])">{{ choices[3] }}</button>
                 </div>
             </div>
