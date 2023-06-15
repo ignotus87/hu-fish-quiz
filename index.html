@@ -20,21 +20,40 @@
         a {
             color: aliceblue;
         }
+		
+		.main-container {
+			display: grid;
+			grid-template-columns: 0.8fr;
+            justify-content: center;
+		}
+		
+		.button-container {
+			background-color: #EEEEEE;
+			white-space: normal;
+			padding: 2px 6px 2px 6px;
+            border-top: 1px solid #CCCCCC;
+            border-right: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            border-left: 1px solid #CCCCCC;
+
+		}
 
         .main-container {
             text-align: center;
         }
 
         .button {
-            font: bold 13px Arial;
+            font: bold 24px Arial;
             text-decoration: none;
-            background-color: #EEEEEE;
             color: #333333;
-            padding: 2px 6px 2px 6px;
-            border-top: 1px solid #CCCCCC;
-            border-right: 1px solid #333333;
-            border-bottom: 1px solid #333333;
-            border-left: 1px solid #CCCCCC;
+        }
+		
+		@media (min-width: 768px) {
+            /*For mobile phones */
+            .main-container {
+				dispay: inline-block;
+                grid-template-columns: 0.5fr;
+            }
         }
 
         .button-container {
@@ -76,7 +95,7 @@
         <div class="button-container"><a href="learnSimilarSpecies.html" class="button">Hasonló fajok megkülönböztetése</a></div>
 
         <h2>Teszt, kvíz</h2>
-        <div class="button-container"><a class="button" href="selectNameByImage.html">Faj kiválasztása kép alapján 4 lehetőségből</a></div>
+        <div class="button-container"><a class="button" href="selectNameByImage.html">Faj kiválasztása kép alapján <br/>4 lehetőségből</a></div>
 
         <h2>Kapcsolat</h2>
         <a href="mailto:hufishquiz@gmail.com">Írj e-mailt</a>
